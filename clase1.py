@@ -1,2 +1,1 @@
-x = 2
-print('x')
+#TAD (TIPO ABSTRACTO DE DATO)
