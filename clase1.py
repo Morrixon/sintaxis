@@ -52,3 +52,29 @@ nota=float(input("Ingrese la nota del alumno \n"))
 
 cargarEst(est2,nombre,apellido,legajo,nota)
 
+nombre= input("ingrese el nombre \n")
+apellido= input("ingrese apellido \n")
+legajo=int(input("Ingrese el nro de legajo \n"))
+nota=float(input("Ingrese la nota del alumno \n"))
+
+
+#print(est1.nombre,est1.apellido,est1.legajo,est1.nota)
+
+
+print(verNombre(est1))
+print(verApellido(est1))
+print(verLegajo(est1))
+print(verPromedio(est1))
+
+print(verNombre(est2))
+print(verApellido(est2))
+print(verLegajo(est2))
+print(verPromedio(est2))
+
+
+
+
+if(verProm(est1)>verProm(est2)):
+    print("El estudiante de mayor promedio es el :",vernombre(est1))
+else:
+    print("El estudiante de mayor promedio es ",vernombre(est2))
