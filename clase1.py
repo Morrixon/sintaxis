@@ -78,3 +78,4 @@ if(verProm(est1)>verProm(est2)):
     print("El estudiante de mayor promedio es el :",vernombre(est1))
 else:
     print("El estudiante de mayor promedio es ",vernombre(est2))
+    
