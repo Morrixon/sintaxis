@@ -37,7 +37,9 @@ import TADEstudiante
 from TADestudiante import *
 
 est1= crearEstudiante():
+
 est2=crearEstudiante():
+
 nombre= input("ingrese el nombre \n")
 apellido= input("ingrese apellido \n")
 legajo=int(input("Ingrese el nro de legajo \n"))
